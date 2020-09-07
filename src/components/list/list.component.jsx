@@ -11,12 +11,12 @@ const List = ({ whichItem, setItem }) => {
 
   const helperFunction = () => {
     if (whichItem.toLowerCase() === "movies") {
-      return movies.map((movie) => {
-        return <Item item={movie} />;
+      return movies.map((movie, index) => {
+        return <Item item={movie} key={index} />;
       });
     } else if (whichItem.toLowerCase() === "series") {
-      return series.map((serie) => {
-        return <Item item={serie} />;
+      return series.map((serie, index) => {
+        return <Item item={serie} key={index} />;
       });
     } else {
       return <Home setItem={setItem} />;
