@@ -7,9 +7,8 @@ const Home = ({ setItem }) => {
       <h1>Hi fellow quarantined human</h1>
       <h2>If you're reading this, I hope you are okay</h2>
       <p>
-        I have watched a lot of movies and tv series while sitting at home
-        during quarantine. This site contains list of all movies and series I
-        watched.
+        I've watched a lot of movies and tv series while staying at home during
+        quarantine. This site lists all of that.
       </p>
       <div className="home-bottom">
         <ul>

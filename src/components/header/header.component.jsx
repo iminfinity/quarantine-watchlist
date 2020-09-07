@@ -15,16 +15,22 @@ const Header = ({ setItem, whichItem }) => {
       <div className="header-left">
         <ul className="movies-series ">
           <li
-            onClick={(event) => setItem(event.target.innerText)}
+            onClick={() => setItem("movies")}
             className={getClassName("movies")}
           >
             Movies
           </li>
           <li
-            onClick={(event) => setItem(event.target.innerText)}
+            onClick={() => setItem("series")}
             className={getClassName("series")}
           >
             Series
+          </li>
+          <li
+            onClick={() => setItem("current")}
+            className={getClassName("current")}
+          >
+            Current
           </li>
         </ul>
         <a href="https://github.com/iminfinity/quarantine-watchlist">

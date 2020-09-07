@@ -53,6 +53,9 @@
             border-bottom: unset;
             border-bottom-right-radius: unset;
           }
+          &:last-child {
+            display: none;
+          }
         }
 
         &.active {
