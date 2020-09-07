@@ -6,16 +6,16 @@ import List from "./components/list/list.component";
 
 import DataContext from "./dataContext";
 function App() {
-  const [whichItem, setWhichItem] = useState("0");
+  const [whichItem, setWhichItem] = useState("home");
 
   const setItem = (item) => {
     setWhichItem(item);
   };
   return (
     <DataContext>
+      <Header setItem={setItem} whichItem={whichItem} />
       <div className="App">
-        <Header setItem={setItem} />
-        <List whichItem={whichItem} />
+        <List whichItem={whichItem} setItem={setItem} />
       </div>
     </DataContext>
   );

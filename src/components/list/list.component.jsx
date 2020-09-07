@@ -3,17 +3,23 @@ import "./list.styles.scss";
 import { useContext } from "react";
 import { MoviesContext } from "../../dataContext";
 import { SeriesContext } from "../../dataContext";
-const List = ({ whichItem }) => {
+import Item from "../item/item.component";
+import Home from "../home/home.component";
+const List = ({ whichItem, setItem }) => {
   const movies = useContext(MoviesContext);
   const series = useContext(SeriesContext);
 
   const helperFunction = () => {
     if (whichItem.toLowerCase() === "movies") {
-      return <h1>Movies</h1>;
+      return movies.map((movie) => {
+        return <Item item={movie} />;
+      });
     } else if (whichItem.toLowerCase() === "series") {
-      return <h1>Series</h1>;
+      return series.map((serie) => {
+        return <Item item={serie} />;
+      });
     } else {
-      return <h1>HomePage</h1>;
+      return <Home setItem={setItem} />;
     }
   };
   return <div className="list">{helperFunction()}</div>;

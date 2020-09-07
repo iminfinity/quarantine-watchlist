@@ -1,15 +1,23 @@
 .header {
   background: #9656a166;
-  height: 55px;
+  height: 8vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: #ffc0ad;
   border-bottom: 3px solid #f77852;
+  @media (max-width: 600px) {
+    height: 35px;
+  }
   h1 {
     margin-left: 30px;
     font-size: 40px;
     font-family: "Amatic SC", cursive;
+    cursor: pointer;
+
+    @media (max-width: 800px) {
+      font-size: 20px;
+    }
   }
 
   .header-left {
@@ -30,6 +38,7 @@
         padding-bottom: 10px;
         font-family: "Amatic SC", cursive;
         cursor: pointer;
+        border-top: 2px solid #9656a100;
         &:hover {
           background: #ffc0ad;
           color: #101010;
@@ -37,11 +46,26 @@
           border-bottom: 8px solid black;
           border-bottom-right-radius: 50%;
         }
+        @media (max-width: 800px) {
+          font-size: 14px;
+          padding-bottom: 0;
+          &:hover {
+            border-bottom: unset;
+            border-bottom-right-radius: unset;
+          }
+        }
+
+        &.active {
+          border-top: 2px solid #f77852;
+        }
       }
     }
     svg {
       height: 30px;
       fill: #ffc0ad;
+      @media (max-width: 800px) {
+        height: 18px;
+      }
     }
   }
 }
