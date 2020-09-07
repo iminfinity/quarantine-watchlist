@@ -1,3 +1,3 @@
 # Quarantine-Watchlist
 
-__All the movies and series I've watched in quarantine__
+**All the movies and series I've watched in quarantine**
