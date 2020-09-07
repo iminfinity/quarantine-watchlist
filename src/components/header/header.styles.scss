@@ -11,8 +11,37 @@
     font-size: 40px;
     font-family: "Amatic SC", cursive;
   }
-  svg {
-    height: 30px;
-    fill: #ffc0ad;
+
+  .header-left {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 30%;
+    ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: space-between;
+      margin-right: 20px;
+
+      li {
+        font-size: 28px;
+        margin-left: 30px;
+        padding: 0 5px;
+        padding-bottom: 10px;
+        font-family: "Amatic SC", cursive;
+        cursor: pointer;
+        &:hover {
+          background: #ffc0ad;
+          color: #101010;
+          padding-bottom: 0px;
+          border-bottom: 8px solid black;
+          border-bottom-right-radius: 50%;
+        }
+      }
+    }
+    svg {
+      height: 30px;
+      fill: #ffc0ad;
+    }
   }
 }
