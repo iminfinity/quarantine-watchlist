@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "166308f2268b062c187a235ea879ce67",
+    "revision": "eff79e5124138872caa5e5d7dc3c8052",
     "url": "/quarantine-watchlist/index.html"
   },
   {
-    "revision": "44bce594a2ef2856fee6",
-    "url": "/quarantine-watchlist/static/css/main.ead5f441.chunk.css"
+    "revision": "6deb209df18df3fb2590",
+    "url": "/quarantine-watchlist/static/css/main.3cc9f7ab.chunk.css"
   },
   {
-    "revision": "eea3c19235359e58a584",
-    "url": "/quarantine-watchlist/static/js/2.d4d8af60.chunk.js"
+    "revision": "d6e7dd0dc6bd5c82b150",
+    "url": "/quarantine-watchlist/static/js/2.6654988b.chunk.js"
   },
   {
-    "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/quarantine-watchlist/static/js/2.d4d8af60.chunk.js.LICENSE.txt"
+    "revision": "a75ee770eeb065faa45ae4929f4eae76",
+    "url": "/quarantine-watchlist/static/js/2.6654988b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "44bce594a2ef2856fee6",
-    "url": "/quarantine-watchlist/static/js/main.04b32277.chunk.js"
+    "revision": "6deb209df18df3fb2590",
+    "url": "/quarantine-watchlist/static/js/main.9c2d710a.chunk.js"
   },
   {
     "revision": "f64be121e8ca879fc9f4",
