@@ -1,5 +1,17 @@
 const movies = [
   {
+    name: "Hamilton",
+    released: "2020",
+    poster:
+      "https://m.media-amazon.com/images/M/MV5BNjViNWRjYWEtZTI0NC00N2E3LTk0NGQtMjY4NTM3OGNkZjY0XkEyXkFqcGdeQXVyMjUxMTY3ODM@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    director: "Thomas Kail",
+    rating: "9",
+    rewatch: "false",
+    casts: ["Lin-Manuel Miranda", "Phillipa Soo", "Leslie Odom Jr"],
+    synopsis:
+      "The real life of one of America's foremost founding fathers and first Secretary of the Treasury, Alexander Hamilton. Captured live on Broadway from the Richard Rodgers Theater with the original Broadway cast.",
+  },
+  {
     name: "Rear Window",
     released: "1954",
     poster:
