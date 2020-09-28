@@ -1,5 +1,17 @@
 const movies = [
   {
+    name: "Enola Holmes",
+    released: "2020",
+    poster:
+      "https://m.media-amazon.com/images/M/MV5BZjNkNzk0ZjEtM2M1ZC00MmMxLTlmOWEtNWRlZTc1ZTUyNzY4XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UX182_CR0,0,182,268_AL_.jpg",
+    director: "Harry Bradbeer",
+    rating: "5",
+    rewatch: "false",
+    casts: ["Millie Bobby Brown", "Henry Cavill", "Sam Claflin"],
+    synopsis:
+      "When Enola Holmes-Sherlock's teen sister-discovers her mother missing, she sets off to find her, becoming a super-sleuth in her own right as she outwits her famous brother.",
+  },
+  {
     name: "Hamilton",
     released: "2020",
     poster:
@@ -9,7 +21,7 @@ const movies = [
     rewatch: "false",
     casts: ["Lin-Manuel Miranda", "Phillipa Soo", "Leslie Odom Jr"],
     synopsis:
-      "The real life of one of America's foremost founding fathers and first Secretary of the Treasury, Alexander Hamilton. Captured live on Broadway from the Richard Rodgers Theater with the original Broadway cast.",
+      "The real life of one of America's foremost founding fathers and first Secretary of the Treasury, Alexander Hamilton.",
   },
   {
     name: "Rear Window",
