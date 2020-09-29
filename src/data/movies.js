@@ -1,5 +1,17 @@
 const movies = [
   {
+    name: "The Devil All the Time",
+    released: "2020",
+    poster:
+      "https://m.media-amazon.com/images/M/MV5BZmE1NmVmN2EtMjZmZC00YzAyLWE4MWEtYjY5YmExMjUxODU1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    director: "Antonio Campos",
+    rating: "9",
+    rewatch: "false",
+    casts: ["Bill Skarsgård", "Tom Holland", "Robert Pattinson"],
+    synopsis:
+      "Sinister characters converge around a young man devoted to protecting those he loves in a postwar backwoods town teeming with corruption and brutality.",
+  },
+  {
     name: "Enola Holmes",
     released: "2020",
     poster:
