@@ -1,5 +1,17 @@
 const movies = [
   {
+    name: "American Murder: The Family Next Door",
+    released: "2020",
+    poster:
+      "https://m.media-amazon.com/images/M/MV5BZjNkOWZlMWYtYmU1Ny00M2ZlLTkzZWUtM2RkMjU0MjM5NmEwXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+    director: "Jenny Popplewell",
+    rating: "10",
+    rewatch: "false",
+    casts: ["Shanann Watts"],
+    synopsis:
+      "In 2018, 38-year-old Shanann Watts and her two youngest daughters disappeared in Colorado. With the heartbreaking details emerging, the family's story made headlines around the world.",
+  },
+  {
     name: "The Devil All the Time",
     released: "2020",
     poster:
